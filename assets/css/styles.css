@@ -1,2 +1,73 @@
 
-/* css */
+@font-face {
+  font-family: 'Jolly Lodger';
+  src: url('../JollyLodger-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Lacquer';
+  src: url('../Lacquer-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Science Gothic Condensed';
+  src: url('../ScienceGothic_Condensed-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+h1{
+   
+    font-size: 100px;
+    font-family: Jolly Lodger;
+    
+}
+body{
+    background-color: #FF9411;
+}
+.btn{
+    color: black;
+    background-color:#D14EF9;
+    width: 200px;
+    height:120px;
+    font-size: 35px;
+    font-family: Lacquer;
+    border-radius: 50px;
+}
+.btn:hover{
+    color: white;
+    background-color: black;
+}
+input{
+    color: white;
+    background-color: #3F3C40;
+    width: 300px;
+    height: 50px;
+    font-size:30px;
+    font-family: Science Gothic Condensed;
+}
+label{
+  font-weight: bold;
+  font-size: 30px;  
+  font-family: Lacquer;
+
+}
+a{
+    color: black;
+    background-color: #D14EF9;
+    font-size: 20px;
+    font-family: Lacquer;
+}
+a:hover{
+    color: white;
+    background-color: black;
+}
+p{
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Science Gothic Condensed;
+}
